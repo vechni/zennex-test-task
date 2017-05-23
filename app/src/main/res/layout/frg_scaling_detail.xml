@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/frg_scaling_detail_iv_picture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/app_splah"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/margin_largest"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/frg_scaling_detail_btn_zoom_in"
+            android:layout_width="@dimen/dimen_floating_btn"
+            android:layout_height="@dimen/dimen_floating_btn"
+            android:layout_marginRight="@dimen/margin_small"
+            android:src="@mipmap/app_ic_button_zoom_in"/>
+
+        <ImageView
+            android:id="@+id/frg_scaling_detail_btn_zoom_out"
+            android:layout_width="@dimen/dimen_floating_btn"
+            android:layout_height="@dimen/dimen_floating_btn"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:src="@mipmap/app_ic_button_zoom_out"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

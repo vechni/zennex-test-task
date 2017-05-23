@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_settings"
+        android:icon="@mipmap/app_ic_settings"
+        android:title="@string/txt_settings"
+        android:visible="false"
+        app:showAsAction="always"/>
+
+</menu>

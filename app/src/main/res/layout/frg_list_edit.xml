@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/frg_list_et_hint"
+        style="@style/TextView"
+        android:layout_alignLeft="@+id/frg_list_et_name"
+        android:layout_marginTop="@dimen/margin_large"
+        android:text="@string/text_edit"/>
+
+    <EditText
+        android:id="@+id/frg_list_et_name"
+        style="@style/EditText"
+        android:layout_width="@dimen/width_edit_text_list_edit"
+        android:layout_below="@+id/frg_list_et_hint"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_small"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/font_largest"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/frg_list_btn_commit"
+            style="@style/Button"
+            android:layout_marginRight="@dimen/margin_normal"
+            android:text="@string/txt_commit"/>
+
+        <Button
+            android:id="@+id/frg_list_btn_cancel"
+            style="@style/Button"
+            android:layout_marginLeft="@dimen/margin_normal"
+            android:text="@string/txt_cancel"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

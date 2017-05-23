@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main app colors -->
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#004D40</color>
+    <color name="colorAccent">#26A69A</color>
+
+    <!-- RGB -->
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="gray">#a8a8a8</color>
+    <color name="transparent">#00000000</color>
+    <color name="turquoise">#41ccfe</color>
+
+    <!-- Design colors -->
+    <color name="error">#ff1b2c</color>
+
+    <!-- Main app UI elements colors -->
+    <color name="toolbar">@color/colorPrimary</color>
+    <color name="background">#212121</color>
+
+    <!-- UI elements colors -->
+    <color name="refresh_progress_1">#00897B</color>
+    <color name="refresh_progress_2">#00796B</color>
+    <color name="refresh_progress_3">#00695C</color>
+    <color name="refresh_progress_4">#004D40</color>
+
+</resources>

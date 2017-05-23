@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/frg_map_container_map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_coordinates_info_block"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/frg_map_txt_latitude"
+            style="@style/TextView"
+            android:text="@string/text_latitude"/>
+
+
+        <TextView
+            android:id="@+id/frg_map_txt_longitude"
+            style="@style/TextView"
+            android:layout_alignLeft="@+id/frg_map_txt_latitude"
+            android:layout_below="@+id/frg_map_txt_latitude"
+            android:layout_marginTop="@dimen/margin_small"
+            android:text="@string/text_longitude"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

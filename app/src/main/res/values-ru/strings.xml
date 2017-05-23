@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tets task</string>
+    <string name="txt_list">Лист</string>
+    <string name="txt_map">Карта</string>
+    <string name="txt_error">Ошибка</string>
+    <string name="txt_parsing">Преобразование</string>
+    <string name="txt_scaling">Масштабирование</string>
+    <string name="google_maps_key" translatable="false">AIzaSyASTxZUU6AkFqmRPVeEX3Ha0zXYSgUl1kQ</string>
+    <string name="message_loading">Загрузка...</string>
+    <string name="warning_not_data">Нет данных</string>
+    <string name="warning_not_network_connection">Нет соединение с сетью</string>
+    <string name="text_description">Описание:</string>
+    <string name="text_description_val"></string>
+    <string name="text_id">ID:</string>
+    <string name="text_latitude">Широта:</string>
+    <string name="text_longitude">Долгота:</string>
+    <string name="text_rating">Рейтинг:</string>
+    <string name="text_time">Время:</string>
+    <string name="title_main">Главная</string>
+    <string name="title_parsing">Преобразование</string>
+    <string name="title_map">Карта</string>
+    <string name="txt_settings">настройки</string>
+    <string name="title_settings">Настройки</string>
+    <string name="text_choose_language">Язык:</string>
+    <string name="txt_english">английский</string>
+    <string name="txt_russian">русский</string>
+    <string name="title_list">Лист</string>
+    <string name="title_list_add">Добавить элемент</string>
+    <string name="title_list_edit">Редактировать элемент</string>
+    <string name="txt_cancel">Отмена</string>
+    <string name="txt_commit">Подтвердить</string>
+    <string name="text_add">Добавить элемент:</string>
+    <string name="text_edit">Редактировать элемент:</string>
+    <string name="empty_string"></string>
+    <string name="text_hint_name">Имя элемент</string>
+    <string name="txt_warning">Предупреждение</string>
+    <string name="warning_message">Вы хотите сохранить изменения?</string>
+    <string name="txt_no">Нет</string>
+    <string name="warning_error_name_is_empty">Введите имя элемента</string>
+    <string name="txt_yes">Да</string>
+    <string name="message_changes_is_successfully">Изменения прошли успешно</string>
+    <string name="text_dialog_help">Выберите действие</string>
+    <string name="txt_dialog_delete">Удалить</string>
+    <string name="txt_dialog_edit">Редактировать</string>
+    <string name="title_navigation_bar">Навигационная панель</string>
+    <string name="navigation_drawer_open">Открыть панель навигации</string>
+    <string name="navigation_drawer_close">Закрыть панель навигации</string>
+    <string name="title_scaling">Масштабирование</string>
+    <string name="txt_gallery">Галерея</string>
+    <string name="txt_camera">Камера</string>
+    <string name="message_select_picture">Выберите изображение</string>
+    <string name="title_scaling_detail">Изображение</string>
+    <string name="error_geolocation">Для получения текущего местоположения необходимо разрешение для определения геолокации</string>
+    <string name="text_current_position">Текущие координаты</string>
+</resources>
